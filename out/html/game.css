@@ -4,42 +4,42 @@ body {
   --content-bg-color: #f3f3f3;
   --text-color: #431;
   --link-color: #900;
-  --link-hover-color: rgba(0, 0, 0, 0.05);
-  --unavailable-bg-color: rgba(0, 0, 0, 0.1);
-  --unavailable-color: #999;
-  --tab-bg-color: #dedede;
-  --tab-color: #ddd;
-  --tab-hover-color: #ececec;
-  --card-border-color: #ccc; 
-  --card-bg-color: #ddd; 
-  font-family: "Minion Pro", Georgia, serif;
+  --link-hover-color: rgba(0, 0, 0, 0.1);
+  --unavailable-bg-color: rgba(0, 0, 0, 0.05);
+  --unavailable-color: #aaa;
+  --tab-bg-color: #ededed;
+  --tab-color: #333;
+  --tab-hover-color: #cecece;
+  --card-border-color: #333; 
+  --card-bg-color: #333; 
+  font-family: "Comic Sans MS", Comic Sans, cursive;
   background-color: var(--bg-color);
   padding: 0;
-  line-height: 155%;
+  line-height: 140%;
   overflow-y: scroll;
 }
 body.dark-mode {
-  --bg-color: #000;
-  --border-color: #fff;
-  --content-bg-color: #242424;
-  --text-color: #fff;
-  --link-color: #ff8080;
-  --link-hover-color: rgba(100, 100, 100, 0.1);
-  --tab-bg-color: #555555;
-  --tab-color: #505050;
-  --tab-hover-color: #242424;
-  --card-border-color: #4c4c4c;
-  --card-bg-color: #3f3f3f;
+  --bg-color: #FFF;
+  --border-color: #000;
+  --content-bg-color: #424242;
+  --text-color: #000;
+  --link-color: #00f8f8;
+  --link-hover-color: rgba(1, 1, 1, 0.4);
+  --tab-bg-color: #999999;
+  --tab-color: #050505;
+  --tab-hover-color: #424242;
+  --card-border-color: #c4c4c4;
+  --card-bg-color: #f3f3f3;
 }
 body.dark-mode #content {
   border-style: double;
   border-width: 4px;
-  border-color: #888;
+  border-color: #333;
 }
 body.dark-mode .tools {
   border-style: double;
   border-width: 4px;
-  border-color: #888;
+  border-color: #333;
 }
 header, #content, footer {
   color: var(--text-color);
