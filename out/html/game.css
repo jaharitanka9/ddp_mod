@@ -540,7 +540,7 @@ table {
 .seat.spd {
     fill: #3EFFF0;
     stroke: var(--border-color);
-    stroke-width: 150px;
+    stroke-width: 15px;
 }
 .seat.ddp {
     fill: #CDACA4;
