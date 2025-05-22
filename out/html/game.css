@@ -1,17 +1,17 @@
 body {
-  --bg-color: #f3f3e3;
-  --border-color: #000;
-  --content-bg-color: #f3f3f3;
-  --text-color: #431;
-  --link-color: #900;
-  --link-hover-color: rgba(0, 0, 0, 0.1);
+  --bg-color: #ff0000;
+  --border-color: #e69214;
+  --content-bg-color: #c0e90a;
+  --text-color: rgb(28, 216, 84);
+  --link-color: rgb(32, 12, 212);
+  --link-hover-color: rgba(248, 8, 128, 0.966);
   --unavailable-bg-color: rgba(0, 0, 0, 0.05);
-  --unavailable-color: #aaa;
-  --tab-bg-color: #ededed;
-  --tab-color: #333;
-  --tab-hover-color: #cecece;
-  --card-border-color: #333; 
-  --card-bg-color: #333; 
+  --unavailable-color: #ffffff;
+  --tab-bg-color: #ff0000;
+  --tab-color: #ff7300;
+  --tab-hover-color: #f1e206;
+  --card-border-color: #00ff00; 
+  --card-bg-color: #2c08f7; 
   font-family: "Comic Sans MS", Comic Sans, cursive;
   background-color: var(--bg-color);
   padding: 0;
@@ -19,17 +19,17 @@ body {
   overflow-y: scroll;
 }
 body.dark-mode {
-  --bg-color: #FFF;
-  --border-color: #000;
-  --content-bg-color: #424242;
+  --bg-color: #ff0000;
+  --border-color: #ffffff;
+  --content-bg-color: #2600ff;
   --text-color: #000;
-  --link-color: #00f8f8;
-  --link-hover-color: rgba(1, 1, 1, 0.4);
-  --tab-bg-color: #999999;
-  --tab-color: #050505;
-  --tab-hover-color: #424242;
-  --card-border-color: #c4c4c4;
-  --card-bg-color: #f3f3f3;
+  --link-color: #ff0000;
+  --link-hover-color: rgb(251, 255, 0);
+  --tab-bg-color: #00ffff;
+  --tab-color: #84ff8a;
+  --tab-hover-color: #a1005e;
+  --card-border-color: #460000;
+  --card-bg-color: #000000;
 }
 body.dark-mode #content {
   border-style: double;
