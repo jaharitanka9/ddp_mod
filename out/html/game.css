@@ -538,33 +538,33 @@ table {
     fill: #8B0000;
 }
 .seat.spd {
-    fill: #E3000F;
+    fill: #3EFFF0;
     stroke: var(--border-color);
-    stroke-width: 1.5px;
+    stroke-width: 150px;
 }
 .seat.ddp {
-    fill: #DCCA4A;
+    fill: #CDACA4;
 }
 .seat.z {
-    fill: #000;
+    fill: #FFFFFF;
 }
 .seat.bvp {
-    fill: #69A2BE;
+    fill: #962AEB;
 }
 .seat.dvp {
-    fill: #D5AC27;
+    fill: #5DCA72;
 }
 .seat.other {
-    fill: #909090;
+    fill: #090909;
 }
 .seat.dnvp {
-    fill: #3F7BC1;
+    fill: #F3B71C;
 }
 .seat.nsdap {
-    fill: #954B00;
+    fill: #59B4FF;
 }
 .seat.sapd {
-    fill: #C40000;
+    fill: #000000;
 }
 
 .tooltip-text {
